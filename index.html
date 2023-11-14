@@ -12,46 +12,50 @@
   <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
 <body>
-  <section class="result-container">
-    <h2>Your Result</span>
-    <div class="circle">
-      <div class="score">76</div>
-      <div class="out-of">of 100</div>
-    </div>
-    <h3 class="classification">Great</div>
-    <p class="explanation">
+  <div class="wrapper">
+    <section class="result-container">
+      <h2>Your Result</h2>
+      <div class="circle">
+        <div class="score">76</div>
+        <div class="out-of">of 100</div>
+      </div>
+      <h3 class="classification">Great</h3>
+      <p class="explanation">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </section>
 
-    </p>
+    <section class="summary-container">
+      <h2>Summary</h2>
+      <div class="card-container">
+        <div id="reaction" class="summary-card">
+          <span class="name">Reaction</span>
+          <span class="score">80</span>
+          <span class="summary-out-of">/ 100</span>
+        </div>
+        <div id="memory" class="summary-card">
+          <span class="name">Memory</span>
+          <span class="score">92</span>
+          <span class="summary-out-of">/ 100</span>
+        </div>
+        <div id="verbal" class="summary-card">
+          <span class="name">Verbal</span>
+          <span class="score">61</span>
+          <span class="summary-out-of">/ 100</span>
+        </div>
+        <div id="visual" class="summary-card">
+          <span class="name">Visual</span>
+          <span class="score">72</span>
+          <span class="summary-out-of">/ 100</span>
+        </div>
+      </div>
+
+      <button>
+        Continue
+      </button>
+    </section>
   </div>
 
-  <section class="summary-container">
-    <h2>Summary</h2>
-    <div id="reaction" class="summary-card">
-      <span class="name">Reaction</span>
-      <span class="score">80</span>
-      <span>/ 100</span>
-    </div>
-    <div id="memory" class="summary-card">
-      <span class="name">Memory</span>
-      <span class="score">92</span>
-      <span>/ 100</span>
-    </div>
-    <div id="verbal" class="summary-card">
-      <span class="name">Verbal</span>
-      <span class="score">61</span>
-      <span>/ 100</span>
-    </div>
-    <div id="visual" class="summary-card">
-      <span class="name">Visual</span>
-      <span class="score">72</span>
-      <span>/ 100</span>
-    </div>
-
-    <button>
-      Continue
-    </button>
-  </section>
-  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
