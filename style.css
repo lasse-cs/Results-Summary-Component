@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "HankenGrotesk";
+    font-family: "Hanken Grotesk";
     src: url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format("truetype");
 }
 
@@ -23,7 +23,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'HankenGrotesk';
+    font-family: 'Hanken Grotesk';
     margin: 0;
     padding: 0;
 }
@@ -83,12 +83,10 @@ body {
 .explanation {
     font-size: 16px;
     opacity: 0.7;
-    /* text-wrap: balance; */
     margin-top: 20px;
     margin-bottom: 40px;
     padding: 0px 60px;
     text-align: center;
-    /* font-weight: 300; */
 }
 
 .summary-container {
@@ -111,26 +109,26 @@ body {
 
 .summary-card#reaction {
     --card-icon: url("./assets/images/icon-reaction.svg");
-    --card-background-color: var(--light-red);
+    --card-color: var(--light-red);
 }
 
 .summary-card#memory {
     --card-icon: url("./assets/images/icon-memory.svg");
-    --card-background-color: var(--orangey-yellow);
+    --card-color: var(--orangey-yellow);
 }
 
 .summary-card#verbal {
     --card-icon: url("./assets/images/icon-verbal.svg");
-    --card-background-color: var(--green-teal);
+    --card-color: var(--green-teal);
 }
 
 .summary-card#visual {
     --card-icon: url("./assets/images/icon-visual.svg");
-    --card-background-color: var(--cobalt-blue);
+    --card-color: var(--cobalt-blue);
 }
 
 .summary-card {
-    background-color: hsla(var(--card-background-color), 0.1);
+    background-color: hsla(var(--card-color), 0.1);
     display: flex;
     align-items: center;
     padding: 18px;
@@ -148,19 +146,8 @@ body {
     width: 20px;
 }
 
-.summary-card::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    outline: 1px solid hsla(var(--card-background-color), 0.2);
-    border-radius: 12px;
-}
-
 .name {
-    color: hsl(var(--card-background-color));
+    color: hsl(var(--card-color));
     flex: 1;
 
     display: inline-flex;
