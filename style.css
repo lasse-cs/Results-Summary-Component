@@ -64,7 +64,7 @@ body {
     text-align: center;
 }
 
-.circle > .score {
+.circle > .total-score {
     font-weight: 800;
     font-size: 50px;
     padding-top: 20px;
@@ -105,26 +105,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
-}
-
-.summary-card#reaction {
-    --card-icon: url("./assets/images/icon-reaction.svg");
-    --card-color: var(--light-red);
-}
-
-.summary-card#memory {
-    --card-icon: url("./assets/images/icon-memory.svg");
-    --card-color: var(--orangey-yellow);
-}
-
-.summary-card#verbal {
-    --card-icon: url("./assets/images/icon-verbal.svg");
-    --card-color: var(--green-teal);
-}
-
-.summary-card#visual {
-    --card-icon: url("./assets/images/icon-visual.svg");
-    --card-color: var(--cobalt-blue);
 }
 
 .summary-card {
